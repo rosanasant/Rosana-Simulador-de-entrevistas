@@ -1,0 +1,128 @@
+# Simulação de Entrevista – Salesforce Júnior  
+**Candidato:** Robson Junior  
+**Vaga:** Salesforce Júnior  
+**Tecnologias principais:** Salesforce Industries  
+**Soft skills desejadas:** Protagonismo | Parceria | Inquietude | Encantamento | Lealdade  
+
+---
+
+## Perguntas e Respostas
+
+### 1. Técnica  
+**Pergunta:** Você poderia explicar como o **Salesforce Industries** pode ser utilizado para personalizar processos de negócio em um setor específico (por exemplo, telecom ou financeiro)?  
+**Resposta (Robson Junior):**  
+> Pense no Salesforce "normal" como uma tela em branco, certo? O Industries (antes Vlocity) é tipo um "kit de ferramentas" que já vem com as peças certas para um setor específico, como Telecom ou Financeiro.  
+>  
+> **Dados Prontos:** Ele já "fala a língua" do setor. Em Telecom, ele já sabe o que é um plano de internet e como ligá-lo a um endereço. Não precisamos construir isso do zero.  
+>  
+> **Fluxos Guiados (OmniScripts):** Usamos ferramentas low-code para criar telas que forçam o funcionário a seguir o passo a passo certo. Tipo, no banco, para abrir uma conta, ele não erra as perguntas. Em Telecom, para mudar um plano, o sistema já calcula o preço certinho.  
+>  
+> Ou seja, ele acelera MUITO a customização, porque já te dá 80% do trabalho pronto, e a gente só ajusta os 20% que são únicos daquela empresa!
+
+---
+
+### 2. Técnica  
+**Pergunta:** Quais são os principais desafios que você imagina encontrar ao configurar objetos e fluxos dentro do Salesforce para atender requisitos de um cliente?  
+**Resposta (Robson Junior):**  
+> A maior preocupação que tenho como iniciante é o entendimento inicial.  
+>  
+> O cliente vem e diz: "Preciso de um campo novo e um fluxo que faça X." A gente vai lá, configura o objeto, cria o Flow rapidinho, e funciona. Mas o desafio não é fazer funcionar, é entender se funciona do jeito certo.  
+>  
+> Muitas vezes, o requisito que eles me dão é só a ponta do iceberg. Eu me preocupo em criar um fluxo muito complexo que atenda a dez regras de uma vez, e daqui a seis meses, quando eu precisar mudar uma regra só, eu vou ter que desmembrar o Flow inteiro. Isso se chama manutenibilidade.  
+>  
+> Também me preocupo em criar Flows que sejam pesados para o sistema. Se eu fizer um loop gigante num objeto com 50 mil registros, o Salesforce vai dar time-out.  
+>  
+> Então, em resumo: pegar o requisito 100% certo e garantir que o que eu configure seja fácil de dar manutenção e não quebre o sistema no futuro.
+
+---
+
+### 3. Comportamental  
+**Pergunta:** Conte sobre uma situação em que você precisou assumir **protagonismo** em um projeto ou atividade, mesmo sendo iniciante. Como você conduziu?  
+**Resposta (Robson Junior):**  
+> Basicamente, virei "o bombeiro". Não tentei ser ele, porque eu não tinha o conhecimento dele. Eu priorizei o caos.  
+>  
+> Chamei o time e perguntei: "Gente, qual é o mínimo que precisa funcionar para a gente passar?" Focamos só naquelas duas ou três funcionalidades críticas.  
+>  
+> Busquei ajuda externa na documentação. Em vez de tentar refazer tudo, eu usei o que ele tinha deixado e enchi a paciência do nosso professor/mentor com perguntas super específicas sobre o ponto de integração.  
+>  
+> Comuniquei a todos: Fui transparente. "Gente, a entrega vai atrasar um pouquinho, mas estamos focando em resolver o gargalo X."  
+>  
+> No fim, conseguimos entregar o essencial. A lição foi: protagonismo não é saber tudo, é garantir que o barco continue andando, mesmo que você tenha que pedir ajuda, priorizar e ser o chato que fica cobrando o andamento.
+
+---
+
+### 4. Comportamental  
+**Pergunta:** Como você demonstra **parceria** no trabalho em equipe, especialmente quando precisa colaborar com pessoas mais experientes?  
+**Resposta (Robson Junior):**  
+> Minha forma de demonstrar parceria começa com o respeito ativo pelo conhecimento delas.  
+>  
+> Primeiro, eu me posiciono como alguém que está ali para aprender e agregar, em vez de apenas delegar ou seguir ordens cegamente.  
+>  
+> Antes de pedir ajuda ou sugerir uma mudança, eu faço minha lição de casa – pesquiso a documentação e tento resolver o problema sozinho até o ponto em que fico realmente travado.  
+>  
+> Quando colaboro, apresento o problema ou a sugestão com o máximo de contexto possível ("Tentei o caminho A e B, mas encontrei o erro X. Você acha que a abordagem C faria sentido?").  
+>  
+> Além disso, eu me ofereço para assumir tarefas de menor complexidade ou operacionais que liberam o tempo deles para focarem em desafios mais críticos.
+
+---
+
+### 5. Situacional  
+**Pergunta:** Imagine que um cliente solicita uma funcionalidade que não está disponível nativamente no **Salesforce Industries**. Como você abordaria essa situação?  
+**Resposta (Robson Junior):**  
+> Eu começaria validando a necessidade de negócio para entender se existe uma solução low-code alternativa ou um workaround usando as ferramentas do OmniStudio (como DataRaptors ou Integration Procedures).  
+>  
+> Se a customização for inevitável, eu sugeriria o desenvolvimento de um componente LWC (Lightning Web Component) customizado, garantindo que ele se integre perfeitamente à experiência do usuário do Industries.
+
+---
+
+### 6. Resolução de Problemas  
+**Pergunta:** Você recebe um fluxo automatizado que não está funcionando corretamente. Quais passos seguiria para identificar e corrigir o problema?  
+**Resposta (Robson Junior):**  
+> Eu começaria reproduzindo o erro em ambiente de sandbox, usando o Debug Mode do Flow para rastrear a execução passo a passo e inspecionar os valores das variáveis em cada etapa, identificando exatamente onde a lógica está falhando ou quebrando.
+
+---
+
+### 7. Pensamento Crítico  
+**Pergunta:** Se tivesse que escolher entre entregar uma solução rápida com limitações ou atrasar a entrega para garantir maior qualidade, como tomaria essa decisão?  
+**Resposta (Robson Junior):**  
+> Eu não decidiria sozinho. Meu primeiro passo seria correr para o meu líder técnico ou Product Owner e ser totalmente transparente.  
+>  
+> Eu diria: "Temos essas duas opções. A entrega rápida resolve 80% e pode dar dívida técnica, mas está no prazo. A entrega de qualidade precisa de mais 2 dias, mas evita problemas futuros."  
+>  
+> Se o problema da solução rápida impactar diretamente a receita ou o negócio, eu pediria o atraso para garantir a qualidade. Mas se for uma funcionalidade "nice-to-have", eu iria na opção rápida para gerar valor logo.  
+>  
+> A chave é: decisão compartilhada. Eu dou os riscos e eles decidem o que é mais importante para o negócio agora.
+
+---
+
+### 8. Pensamento Crítico  
+**Pergunta:** Como você acredita que a **inquietude** e o **encantamento** podem ser aplicados no seu dia a dia para gerar valor em projetos Salesforce?  
+**Resposta (Robson Junior):**  
+> Para mim, inquietude é o que me faz não aceitar o jeito que as coisas sempre foram. No Salesforce, isso significa estar sempre pensando: "Dá para simplificar esse Flow? Será que essa automação não pode ser melhor?"  
+>  
+> Já o encantamento é o que move a gente a pensar no cliente final, no usuário. É perguntar: "Essa tela está realmente fácil de usar? O fluxo é intuitivo?"  
+>  
+> É garantir que a solução não só funcione tecnicamente, mas que também seja agradável e eficiente para quem usa, elevando a satisfação e a adoção da ferramenta.
+
+---
+
+## 📊 Relatório Final
+
+**Resumo Geral:**  
+O candidato apresentou respostas claras, bem estruturadas e contextualizadas, demonstrando equilíbrio entre conhecimento técnico, pensamento crítico e soft skills.  
+
+**Pontos Fortes:**  
+- Clareza e comunicação envolvente  
+- Conhecimento técnico relevante (OmniScripts, Flows, DataRaptors, LWC)  
+- Maturidade comportamental (protagonismo, parceria, transparência)  
+- Pensamento crítico aplicado a técnica e negócio  
+- Consciência de manutenção futura e performance  
+
+**Pontos de Melhoria:**  
+- Detalhar mais verificações complementares em troubleshooting (logs, permissões, subflows, testes unitários)  
+- Ganhar experiência prática em cenários complexos  
+
+**Recomendação:**  
+✅ **Contratar** – O candidato demonstra excelente potencial para a posição Júnior em Salesforce Industries.  
+
+---
